@@ -40,7 +40,7 @@ function findMostRecentBook(book) {
 
 function findIntersection(setA, setB) {
     // 🪲 Bug: Incorrect logic
-    const intersection = new Set([...setA]);
+    const intersection = new Set([...setB]);
     return intersection;
 }
 
